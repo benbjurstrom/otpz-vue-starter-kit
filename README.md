@@ -1,25 +1,17 @@
-# Laravel + Vue Starter Kit
+<div align="center">
+    <img src="https://github.com/benbjurstrom/otpz/blob/main/art/email.png?raw=true" alt="OTPz Screenshot">
+</div>
 
-## Introduction
+# OTPz: Laravel + Vue Starter Kit
+This project integrates the [benbjurstrom/otpz](https://github.com/benbjurstrom/otpz) package with the official [Laravel  + Vue Starter Kit](https://github.com/laravel/vue-starter-kit).
 
-Our Vue starter kit provides a robust, modern starting point for building Laravel applications with a Vue frontend using [Inertia](https://inertiajs.com).
+OTPz provides secure first factor one-time passwords (OTPs) for Laravel applications. Users enter their email and receive a one-time code to sign in. See the package's repo for more details.
 
-Inertia allows you to build modern, single-page Vue applications using classic server-side routing and controllers. This lets you enjoy the frontend power of Vue combined with the incredible backend productivity of Laravel and lightning-fast Vite compilation.
+## New Applications
+Create a new Laravel project using the OTPz + Vue starter kit with the following command:
+```bash
+laravel new --using benbjurstrom/otpz-vue-starter-kit otpz-vue
+```
 
-This Vue starter kit utilizes Vue 3 and the Composition API, TypeScript, Tailwind, and the [shadcn-vue](https://www.shadcn-vue.com) component library.
-
-## Official Documentation
-
-Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
-
-## Contributing
-
-Thank you for considering contributing to our starter kit! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## License
-
-The Laravel + Vue starter kit is open-sourced software licensed under the MIT license.
+## Existing Applications
+Use this repository as a reference to add OTPz to an existing Laravel project. You can see a diff of all changes made to the official Laravel + Vue Starter Kit here: https://github.com/laravel/vue-starter-kit/compare/main...benbjurstrom:otpz-vue-starter-kit:main
